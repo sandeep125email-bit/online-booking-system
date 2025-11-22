@@ -1,0 +1,32 @@
+[
+  {
+    "id": "b_1763817892410",
+    "service": "Haircut",
+    "date": "2025-11-22",
+    "time": "18:54",
+    "name": "sandeep",
+    "email": null,
+    "mobile": null,
+    "createdAt": "2025-11-22T13:24:52.410Z"
+  },
+  {
+    "id": "b_1763816973102",
+    "service": "Haircut",
+    "date": "2025-11-22",
+    "time": "18:41",
+    "name": "sandeep",
+    "email": null,
+    "mobile": null,
+    "createdAt": "2025-11-22T13:09:33.102Z"
+  },
+  {
+    "id": "b_1763816933443",
+    "service": "Hotel Room",
+    "date": "2025-11-23",
+    "time": "21:40",
+    "name": "k. sandeep",
+    "email": null,
+    "mobile": null,
+    "createdAt": "2025-11-22T13:08:53.443Z"
+  }
+]

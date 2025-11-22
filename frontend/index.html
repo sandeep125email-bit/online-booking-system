@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Online Booking System</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Online Booking System</div>
+    <div class="controls">
+      <button id="themeToggle" class="btn small">Dark Mode</button>
+      <a class="btn small" href="admin.html">Admin</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="card booking-card">
+      <h2>Make a Booking</h2>
+
+      <form id="bookingForm" class="form">
+        <label>Service
+          <select id="service">
+            <option>Haircut</option>
+            <option>Spa</option>
+            <option>Hotel Room</option>
+            <option>Doctor Appointment</option>
+          </select>
+        </label>
+
+        <div class="two-col">
+          <label>Date <input id="date" type="date" required></label>
+          <label>Time <input id="time" type="time" required></label>
+        </div>
+
+        <label>Name <input id="name" type="text" required></label>
+        <label>Email (optional) <input id="email" type="email"></label>
+        <label>Mobile (optional) <input id="mobile" type="tel"></label>
+
+        <div class="actions">
+          <label><input id="saveLocal" type="checkbox" checked> Save locally</label>
+          <button id="submitBtn" class="btn primary" type="submit">Confirm Booking</button>
+        </div>
+      </form>
+
+      <div id="result" class="result hidden"></div>
+    </section>
+
+    <section class="card info-card">
+      <h3>Quick Chat Assistant</h3>
+      <div id="chat" class="chat">
+        <div id="chatLog" class="chat-log"></div>
+        <div class="chat-input">
+          <input id="chatInput" placeholder="Ask anything..." />
+          <button id="sendChat" class="btn">Send</button>
+        </div>
+      </div>
+
+      <h3>How It Works</h3>
+      <ol>
+        <li>Fill the form.</li>
+        <li>Booking saved locally + sent to server.</li>
+        <li>If email/mobile is added → server tries to send confirmation.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">Prepared by Sandeep</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

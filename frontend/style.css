@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+/* Dark mode */
+body.dark {
+  background: #111;
+  color: #eee;
+}
+
+.topbar {
+  background: #0066ff;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar .btn.small {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.main {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 380px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+body.dark .card {
+  background: #222;
+}
+
+.form label {
+  display: block;
+  margin-top: 12px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background: #0066ff;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.btn.primary {
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.result {
+  margin-top: 15px;
+  padding: 15px;
+  background: #e5ffe5;
+  border-left: 5px solid green;
+}
+
+.hidden { display: none; }
+
+.chat {
+  margin-top: 15px;
+}
+
+.chat-log {
+  height: 150px;
+  background: #eee;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chat-line {
+  margin-bottom: 8px;
+}
+
+body.dark .chat-log {
+  background: #333;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px 0;
+  opacity: 0.7;
+}
+
+/* Admin list */
+.list .item {
+  background: #fafafa;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+body.dark .list .item {
+  background: #333;
+}

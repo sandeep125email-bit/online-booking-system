@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Admin - Bookings</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Admin Dashboard</div>
+    <div class="controls"><a class="btn small" href="index.html">Back</a></div>
+  </header>
+
+  <main class="main admin-main">
+    <section class="card admin-card">
+      <h2>Bookings (Local + Server)</h2>
+
+      <div class="admin-actions">
+        <input id="adminKey" placeholder="Admin Key"/>
+        <button id="loadBtn" class="btn">Load</button>
+        <button id="clearLocal" class="btn danger">Clear Local</button>
+      </div>
+
+      <div id="status" class="muted"></div>
+
+      <h3>Server Bookings</h3>
+      <div id="serverList" class="list"></div>
+
+      <h3>Local Bookings</h3>
+      <div id="localList" class="list"></div>
+    </section>
+  </main>
+
+  <footer class="footer small">Admin Panel</footer>
+  <script src="admin.js"></script>
+</body>
+</html>
