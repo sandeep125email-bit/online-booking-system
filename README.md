@@ -4,14 +4,17 @@ A modern full-stack booking platform that supports scheduling services, viewing 
 
 This project includes both Frontend (HTML + CSS + JS) and Backend (Node.js + Express).
 
+
 🚀 Live Demo
 🔹 Frontend (GitHub Pages)
 
 👉 https://sandeep125email-bit.github.io/online-booking-system/
 
+
 🔹 Backend (Render)
 
 👉 https://online-booking-system-j7wh.onrender.com/
+
 
 ✨ Features
 🌐 User Features
@@ -28,6 +31,7 @@ Light/Dark mode toggle
 
 Minimal chatbot (OpenAI optional)
 
+
 🛠 Admin Features
 
 Secure admin key for server access
@@ -37,6 +41,7 @@ View local + server bookings
 See real-time new bookings
 
 JSON persistent storage on server
+
 
 📡 Backend Features
 
@@ -51,6 +56,8 @@ Email confirmation (Nodemailer)
 SMS confirmation (Twilio)
 
 Chatbot replies via OpenAI API
+
+
 
 🧱 Project Structure
 online-booking-system/
@@ -70,10 +77,12 @@ online-booking-system/
 ├── style.css
 └── README.md
 
+
 ⚙️ Backend Setup (Local)
 1️⃣ Install Dependencies
 cd server
 npm install
+
 
 2️⃣ Create .env
 PORT=3000
@@ -90,8 +99,10 @@ TWILIO_FROM=
 
 OPENAI_KEY=
 
+
 3️⃣ Run Server
 node server.js
+
 
 🌍 Deployment (Frontend + Backend)
 Frontend → GitHub Pages
@@ -133,6 +144,8 @@ Add .env variables in Render Dashboard
 Deploy
 
 
+
+
 🔧 Technologies Used
 Frontend
 
@@ -154,6 +167,8 @@ Twilio
 
 OpenAI API (optional)
 
+
+
 👨‍💻 Developer
 
 Kanchanpally Sandeep
@@ -161,6 +176,8 @@ Kanchanpally Sandeep
 
 📱 8374701408
 🔗 https://github.com/sandeep125email-bit
+
+
 
 ⭐ How to Use This Project
 
@@ -174,6 +191,8 @@ Admin logs in using admin key
 
 Admin reviews all bookings
 
+
+
 🏁 Future Enhancements
 
 Full authentication system
@@ -184,4 +203,7 @@ Complete mobile app version
 
 Payment gateway integration
 
+
+
 🎉 Thank you for visiting this project!
+
